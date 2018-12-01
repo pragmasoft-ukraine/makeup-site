@@ -26,11 +26,6 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-::-moz-selection {
-  background: #000000;
-  color: #ffffff;
-}
-
 ::selection {
   background: #000000;
   color: #ffffff;
@@ -48,11 +43,11 @@ h1, h2, h3, h4, h5, h6, p, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #1a57a5;
+  color: #eb586f;
 }
 
 a:hover, a:focus, a:active {
-  color: #174b8f;
+  color: #e8415b;
   text-decoration: none;
 }
 
@@ -207,12 +202,12 @@ a:hover, a:focus, a:active {
 .probootstrap-navbar .dropdown > .dropdown-menu > li a:hover {
   border-top: none;
   background: #ffffff;
-  color: #85C8DD;
+  color: #9e807a;
 }
 
 .probootstrap-navbar .dropdown > .dropdown-menu > li.open > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:hover > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:focus > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:active > a {
   border-top: none;
-  color: #85C8DD;
+  color: #9e807a;
   background: #ffffff;
 }
 
@@ -236,7 +231,7 @@ a:hover, a:focus, a:active {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #85C8DD;
+  background: #9e807a;
   border-radius: 0;
   -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
@@ -274,7 +269,7 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar .navbar-brand {
-    color: #1a57a5;
+    color: #eb586f;
     line-height: 0;
     padding-left: 0px;
   }
@@ -340,13 +335,13 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav > li > .dropdown-menu:before {
-  border: 1px solid #85C8DD;
+  border: 1px solid #9e807a;
   content: "";
   position: absolute;
   top: -20px;
   left: 40px;
-  border-color: rgba(133, 200, 221, 0);
-  border-bottom-color: #85C8DD;
+  border-color: rgba(158, 128, 122, 0);
+  border-bottom-color: #9e807a;
   border-width: 10px;
   margin-left: -10px;
 }
@@ -362,7 +357,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav.active > a {
-  color: #1a57a5 !important;
+  color: #eb586f !important;
 }
 
 .probootstrap-navbar .dropdown-submenu {
@@ -450,7 +445,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-navbar.scrolled .navbar-brand {
   top: 30px;
-  color: #1a57a5;
+  color: #eb586f;
 }
 
 .probootstrap-navbar.scrolled .dropdown > a:before {
@@ -466,12 +461,12 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-  color: #1a57a5 !important;
+  color: #eb586f !important;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-    color: #1a57a5 !important;
+    color: #eb586f !important;
   }
 }
 
@@ -549,12 +544,12 @@ a:hover, a:focus, a:active {
   padding: 20px 40px;
   border-radius: 0;
   margin-right: 10px;
-  border: 2px solid #1a57a5;
+  border: 2px solid #eb586f;
 }
 
 .probootstrap-hero .intro-text .probootstrap-subheading .btn:hover {
-  background: #103463;
-  border-color: #103463;
+  background: #dc1a39;
+  border-color: #dc1a39;
 }
 
 @media screen and (max-width: 480px) {
@@ -591,7 +586,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-cta {
-  background: #1a57a5;
+  background: #eb586f;
   color: #ffffff;
   padding: 3em 0;
 }
@@ -612,7 +607,7 @@ a:hover, a:focus, a:active {
 .probootstrap-footer {
   padding: 3em 0;
   position: relative;
-  background: #1a57a5;
+  background: #eb586f;
   color: #ffffff;
 }
 
@@ -637,7 +632,7 @@ a:hover, a:focus, a:active {
   bottom: 0;
   width: 70px;
   height: 2px;
-  background: #1a57a5;
+  background: #eb586f;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -694,7 +689,7 @@ a:hover, a:focus, a:active {
 .probootstrap-pricing .probootstrap-price strong {
   font-size: 62px;
   font-weight: 300;
-  color: #1a57a5;
+  color: #eb586f;
 }
 
 @media screen and (max-width: 768px) {
@@ -752,7 +747,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-list li.probootstrap-check:before {
-  color: #1a57a5;
+  color: #eb586f;
   font-size: 16px;
   content: "\eb91";
 }
@@ -776,7 +771,7 @@ a:hover, a:focus, a:active {
   position: absolute;
   top: .2em;
   left: 0;
-  color: #1a57a5;
+  color: #eb586f;
   font-size: 20px;
   content: "\eb91";
 }
@@ -788,11 +783,11 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  background: #1a57a5;
+  background: #eb586f;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #103463;
+  background: #dc1a39;
 }
 
 .btn.btn-black {
@@ -822,12 +817,12 @@ a:hover, a:focus, a:active {
   display: block;
   font-size: 70px;
   margin-bottom: 50px;
-  color: #1a57a5;
+  color: #eb586f;
 }
 
 .probootstrap-service-item h2 {
   font-size: 24px;
-  color: #1a57a5;
+  color: #eb586f;
 }
 
 .probootstrap-testimonial {
@@ -899,7 +894,7 @@ a:hover, a:focus, a:active {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid #1a57a5;
+  border: 1px solid #eb586f;
 }
 
 .probootstrap-form .form-group:last-child {
@@ -1192,7 +1187,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-primary {
-  color: #1a57a5 !important;
+  color: #eb586f !important;
 }
 
 @media screen and (max-width: 768px) {

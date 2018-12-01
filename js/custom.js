@@ -103,7 +103,7 @@
 	
 	var stellarInit = function() {
 		if( !isMobile.any() ) {
-			$(window).stellar();
+			$(window).stellar({ horizontalScrolling: false });
 		}
 	};
 
