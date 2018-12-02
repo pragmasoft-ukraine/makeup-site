@@ -473,7 +473,7 @@ a:hover, a:focus, a:active {
 .probootstrap-hero {
   background-color: #ccc;
   background-size: cover;
-  background-position: left top;
+  background-position: center top;
   padding: 9em 0 15em 0;
   position: relative;
   overflow: hidden;
