@@ -562,11 +562,11 @@ a:hover, a:focus, a:active {
 
 .probootstrap-hero .intro-text .probootstrap-subheading .btn.btn-default {
   background: none;
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  border: 2px solid;
   color: #ffffff;
 }
 
-.probootstrap-hero .intro-text .probootstrap-subheading .btn.btn-default:hover, .probootstrap-hero .intro-text .probootstrap-subheading .btn.btn-default:focus, .probootstrap-hero .intro-text .probootstrap-subheading .btn.btn-default:active {
+.probootstrap-hero .intro-text .probootstrap-subheading .btn.btn-default:hover, .probootstrap-hero .intro-text .probootstrap-subheading .btn.btn-default:focus {
   background: rgba(255, 255, 255, 0.3);
 }
 
@@ -783,11 +783,12 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
+  border: 2px solid #eb586f;
   background: #eb586f;
 }
 
-.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #dc1a39;
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+  background: #c51833;
 }
 
 .btn.btn-black {
@@ -797,6 +798,16 @@ a:hover, a:focus, a:active {
 
 .btn.btn-black:hover, .btn.btn-black:active, .btn.btn-black:focus {
   background: #262626;
+}
+
+.btn.btn-outline {
+  color: #eb586f;
+  border: 2px solid #eb586f;
+  background: none;
+}
+
+.btn.btn-outline:hover, .btn.btn-outline:focus {
+  color: #c51833;
 }
 
 .probootstrap-service-item {

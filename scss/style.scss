@@ -498,9 +498,9 @@ a {
 				}
 				&.btn-default {
 					background: none;
-					border: 2px solid rgba(255,255,255,.7);
+					border: 2px solid;
 					color: $brand-white;
-					&:hover, &:focus, &:active {
+					&:hover, &:focus {
 						background: rgba(255,255,255,.3);
 					}
 				}
@@ -686,10 +686,12 @@ a {
 	border-radius: 0;
 	font-size: 16px;
 	padding: 10px 40px;
+
 	&.btn-primary {
+		border: 2px solid $brand-primary;
 		background: $brand-primary;
-		&:hover, &:active, &:focus {
-			background: darken($brand-primary, 15%);
+		&:hover, &:focus {
+			background: darken($brand-primary, 20%);
 		}
 	}
 	&.btn-black {
@@ -699,6 +701,15 @@ a {
 			background: lighten($brand-black, 15%);
 		}
 	}
+	&.btn-outline {
+		color: $brand-primary;
+		border: 2px solid $brand-primary;
+		background: none;
+		&:hover, &:focus {
+			color: darken($brand-primary, 20%);
+		}
+	}
+
 }
 
 // service
