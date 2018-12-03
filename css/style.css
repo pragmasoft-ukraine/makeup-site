@@ -793,8 +793,10 @@ a:hover, a:focus, a:active {
   background: #eb586f;
 }
 
-.btn.btn-primary:hover, .btn.btn-primary:focus {
-  background: #c51833;
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
+  background: #eb586f;
+  border-color: #eb586f;
+  color: black;
 }
 
 .btn.btn-black {
@@ -812,8 +814,10 @@ a:hover, a:focus, a:active {
   background: none;
 }
 
-.btn.btn-outline:hover, .btn.btn-outline:focus {
-  color: #c51833;
+.btn.btn-outline:hover, .btn.btn-outline:focus, .btn.btn-outline:active {
+  background: #eb586f;
+  border-color: #eb586f;
+  color: black;
 }
 
 .probootstrap-service-item {
