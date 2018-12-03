@@ -238,13 +238,16 @@ a {
 		font-size: 26px;
 		font-weight: 700;
 		padding-left: 15px;
-		&:hover {
-			color: $brand-white;
+		&:hover, &:active {
+			color: darken($brand-primary, 20%);
 		}
 		@media screen and (max-width: $screen-sm) {
 			color: $brand-primary;
 			line-height: 0;
 			padding-left: 0px;
+		}
+		@media screen and (max-width: $screen-xs){
+			font-size: 21px;
 		}
 		em {
 			font-family: $font-primary;

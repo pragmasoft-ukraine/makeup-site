@@ -263,8 +263,8 @@ a:hover, a:focus, a:active {
   padding-left: 15px;
 }
 
-.probootstrap-navbar .navbar-brand:hover {
-  color: #ffffff;
+.probootstrap-navbar .navbar-brand:hover, .probootstrap-navbar .navbar-brand:active {
+  color: #c51833;
 }
 
 @media screen and (max-width: 768px) {
@@ -272,6 +272,12 @@ a:hover, a:focus, a:active {
     color: #eb586f;
     line-height: 0;
     padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .probootstrap-navbar .navbar-brand {
+    font-size: 21px;
   }
 }
 
