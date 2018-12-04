@@ -238,13 +238,16 @@ a {
 		font-size: 26px;
 		font-weight: 700;
 		padding-left: 15px;
-		&:hover {
-			color: $brand-white;
+		&:hover, &:active {
+			color: darken($brand-primary, 20%);
 		}
 		@media screen and (max-width: $screen-sm) {
 			color: $brand-primary;
 			line-height: 0;
 			padding-left: 0px;
+		}
+		@media screen and (max-width: $screen-xs){
+			font-size: 21px;
 		}
 		em {
 			font-family: $font-primary;
@@ -534,6 +537,15 @@ a {
 			color: rgba(255,255,255,.7);
 		}
 	}
+	//map
+	&.map {
+		padding: 0;
+		iframe {
+			display: block;
+			width: 100%;
+			height: 300px;
+		}
+	}
 }
 .probootstrap-footer {
 	padding: 3em 0;
@@ -690,8 +702,10 @@ a {
 	&.btn-primary {
 		border: 2px solid $brand-primary;
 		background: $brand-primary;
-		&:hover, &:focus {
-			background: darken($brand-primary, 20%);
+		&:hover, &:focus, &:active {
+			background: $brand-primary;
+			border-color: $brand-primary;
+			color: black;
 		}
 	}
 	&.btn-black {
@@ -705,8 +719,10 @@ a {
 		color: $brand-primary;
 		border: 2px solid $brand-primary;
 		background: none;
-		&:hover, &:focus {
-			color: darken($brand-primary, 20%);
+		&:hover, &:focus, &:active {
+          background: $brand-primary;
+          border-color: $brand-primary;
+          color: black;
 		}
 	}
 

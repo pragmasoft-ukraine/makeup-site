@@ -116,9 +116,7 @@
 
 			var section = $(this).data('nav-section'),
 				navbar = $('.navbar-nav');
-				if (isMobile.any()) {
-					$('.navbar-toggle').click();
-				}
+				$('.navbar-toggle')[0].click();
 				if ( $('[data-section="' + section + '"]').length ) {
 			    	$('html, body').animate({
 			        	scrollTop: $('[data-section="' + section + '"]').offset().top

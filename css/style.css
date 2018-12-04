@@ -263,8 +263,8 @@ a:hover, a:focus, a:active {
   padding-left: 15px;
 }
 
-.probootstrap-navbar .navbar-brand:hover {
-  color: #ffffff;
+.probootstrap-navbar .navbar-brand:hover, .probootstrap-navbar .navbar-brand:active {
+  color: #c51833;
 }
 
 @media screen and (max-width: 768px) {
@@ -272,6 +272,12 @@ a:hover, a:focus, a:active {
     color: #eb586f;
     line-height: 0;
     padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .probootstrap-navbar .navbar-brand {
+    font-size: 21px;
   }
 }
 
@@ -604,6 +610,16 @@ a:hover, a:focus, a:active {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.probootstrap-section.map {
+  padding: 0;
+}
+
+.probootstrap-section.map iframe {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
 .probootstrap-footer {
   padding: 3em 0;
   position: relative;
@@ -787,8 +803,10 @@ a:hover, a:focus, a:active {
   background: #eb586f;
 }
 
-.btn.btn-primary:hover, .btn.btn-primary:focus {
-  background: #c51833;
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
+  background: #eb586f;
+  border-color: #eb586f;
+  color: black;
 }
 
 .btn.btn-black {
@@ -806,8 +824,10 @@ a:hover, a:focus, a:active {
   background: none;
 }
 
-.btn.btn-outline:hover, .btn.btn-outline:focus {
-  color: #c51833;
+.btn.btn-outline:hover, .btn.btn-outline:focus, .btn.btn-outline:active {
+  background: #eb586f;
+  border-color: #eb586f;
+  color: black;
 }
 
 .probootstrap-service-item {
