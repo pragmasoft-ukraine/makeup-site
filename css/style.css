@@ -610,6 +610,16 @@ a:hover, a:focus, a:active {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.probootstrap-section.map {
+  padding: 0;
+}
+
+.probootstrap-section.map iframe {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
 .probootstrap-footer {
   padding: 3em 0;
   position: relative;
