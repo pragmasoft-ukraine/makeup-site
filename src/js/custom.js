@@ -230,6 +230,16 @@
     });
 	};
 
+    var singUpHandler = function () {
+        var links = $('.probootstrap-pricing a');
+        if (!isMobile.any()) {
+            links.on('mousedown', function(e) {
+                e.preventDefault();
+                alert('Звоните: Олеся +380 99 445 72 87');
+			})
+        }
+    };
+
 	$(function(){
 		contentWayPoint();
 		navbarState();
@@ -238,6 +248,7 @@
 		navigationSection();
 		magnificPopupControl();
 		smoothScroll();
+		singUpHandler();
 	});
 
 })();
