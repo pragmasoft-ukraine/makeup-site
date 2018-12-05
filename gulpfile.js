@@ -41,12 +41,12 @@ gulp.task('fonts', () =>
 gulp.task('scripts', function() {
   return gulp.src([
     /* Add your JS files here, they will be combined in this order */
-    'src/js/vendor/jquery.min.js',
-    'src/js/vendor/jquery.easing.1.3.js',
-    'src/js/vendor/jquery.stellar.min.js',
-    'src/js/vendor/bootstrap.min.js',
-    'src/js/vendor/jquery.waypoints.min.js',
-    'src/js/vendor/jquery.magnific-popup.min.js',
+    'node_modules/jquery/dist/jquery.min.js',
+    'node_modules/jquery.easing/jquery.easing.min.js',
+    'node_modules/jquery.stellar/jquery.stellar.js',
+    'node_modules/bootstrap/dist/js/bootstrap.min.js',
+    'node_modules/waypoints/lib/jquery.waypoints.min.js',
+    'node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',
     ])
     .pipe(concat('scripts.js'))
     .pipe(gulp.dest('build/js'))
@@ -97,10 +97,11 @@ gulp.task('sass', function () {
 gulp.task('merge-styles', function () {
 
     return gulp.src([
-        'src/css/vendor/bootstrap.min.css',
         'src/css/vendor/animate.css',
-        'src/css/vendor/magnific-popup.css',
-        'src/fonts/icomoon/style.css',
+        // 'node_modules/animate.css/animate.min.css',
+        'node_modules/bootstrap/dist/css/bootstrap.min.css',
+        'node_modules/magnific-popup/dist/magnific-popup.css',
+        'node_modules/icomoon/style.css',
         ])
         // .pipe(sourcemaps.init())
         // .pipe(autoprefixer({
