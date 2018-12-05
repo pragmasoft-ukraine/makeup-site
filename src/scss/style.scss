@@ -241,6 +241,9 @@ a {
 		&:hover, &:active {
 			color: darken($brand-primary, 20%);
 		}
+		@media screen and (max-width: $screen-md) {
+			font-size: 22px;
+		}
 		@media screen and (max-width: $screen-sm) {
 			color: $brand-primary;
 			line-height: 0;
@@ -438,6 +441,7 @@ a {
 	background-color: #ccc;
 	background-size: cover;
 	background-position: center top;
+	margin-top: -75px;
 	padding: 9em 0 15em 0;
 	position: relative;
 	overflow: hidden;
@@ -493,6 +497,9 @@ a {
 				&:hover {
 					background: darken($brand-primary, 15%);
 					border-color: darken($brand-primary, 15%);
+				}
+				&:focus {
+					color: darken($brand-primary, 5%);
 				}
 				@media screen and (max-width: $screen-xs) {
 					width: 100%;
