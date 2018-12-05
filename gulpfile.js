@@ -127,8 +127,10 @@ gulp.task('browser-sync', function() {
     });
 });
 
+gulp.task('build', ['html', 'fonts', 'images', 'sass', 'merge-styles', 'scripts', 'minify-custom']);
+
 /* Watch scss, js and html files, doing different things with each. */
-gulp.task('default', ['html', 'fonts', 'images', 'sass', 'merge-styles', 'scripts', 'minify-custom', 'browser-sync'], function () {
+gulp.task('default', ['build', 'browser-sync'], function () {
     /* Watch scss, run the sass task on change. */
     gulp.watch(['src/scss/*.scss', 'src/scss/**/*.scss'], ['sass']);
     /* Watch app.js file, run the scripts task on change. */
