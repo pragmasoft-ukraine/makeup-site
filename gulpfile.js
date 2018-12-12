@@ -101,7 +101,6 @@ gulp.task('merge-styles', function () {
         // 'node_modules/animate.css/animate.min.css',
         'node_modules/bootstrap/dist/css/bootstrap.min.css',
         'node_modules/magnific-popup/dist/magnific-popup.css',
-        'node_modules/icomoon/style.css',
         ])
         // .pipe(sourcemaps.init())
         // .pipe(autoprefixer({

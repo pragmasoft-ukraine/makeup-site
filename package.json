@@ -6,8 +6,7 @@
     "waypoints": "^4.0.1",
     "magnific-popup": "^1.1.0",
     "bootstrap": "^3.3.7",
-    "animate.css": "3.5.1",
-    "icomoon": "^1.0.0"
+    "animate.css": "3.5.1"
   },
   "devDependencies": {
     "gulp": "latest",
