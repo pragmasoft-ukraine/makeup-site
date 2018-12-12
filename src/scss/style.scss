@@ -249,9 +249,6 @@ a {
 			line-height: 0;
 			padding-left: 0px;
 		}
-		@media screen and (max-width: $screen-xs){
-			font-size: 21px;
-		}
 		em {
 			font-family: $font-primary;
 		}
@@ -857,6 +854,11 @@ a {
 			color: rgba(0,0,0,.3);
 		}
 	}
+
+    @media screen and (max-width: $screen-sm) {
+      margin-top: 25px;
+      text-align: center;
+    }
 }
 
 // animate
