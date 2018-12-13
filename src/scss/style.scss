@@ -853,6 +853,9 @@ a {
 			display: block;
 			color: rgba(0,0,0,.3);
 		}
+		> a {
+			color: inherit;
+		}
 	}
 
     @media screen and (max-width: $screen-sm) {
