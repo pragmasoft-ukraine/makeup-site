@@ -231,7 +231,7 @@
     };
 
     var singUpHandler = function () {
-        var links = $('.probootstrap-pricing a, .navbar-brand');
+        var links = $('a[href^=\'tel\'], a[href^=\'viber\'], a[href^=\'whatsapp\']');
         if (!isMobile.any()) {
             links.on('mousedown', function(e) {
                 e.preventDefault();
