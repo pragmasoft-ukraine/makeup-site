@@ -42,6 +42,7 @@ gulp.task('scripts', function() {
   return gulp.src([
     /* Add your JS files here, they will be combined in this order */
     'node_modules/jquery/dist/jquery.min.js',
+    'node_modules/jquery-migrate/dist/jquery-migrate.min.js',
     'node_modules/jquery.easing/jquery.easing.min.js',
     'node_modules/jquery.stellar/jquery.stellar.js',
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
