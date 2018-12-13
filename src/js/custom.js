@@ -231,7 +231,7 @@
     };
 
     var singUpHandler = function () {
-        var links = $('.probootstrap-pricing a');
+        var links = $('.probootstrap-pricing a, .navbar-brand');
         if (!isMobile.any()) {
             links.on('mousedown', function(e) {
                 e.preventDefault();
