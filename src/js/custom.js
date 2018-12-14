@@ -233,9 +233,10 @@
     var singUpHandler = function () {
         var links = $('a[href^=\'tel\'], a[href^=\'viber\'], a[href^=\'whatsapp\']');
         if (!isMobile.any()) {
-            links.on('mousedown', function(e) {
+            links.on('click', function(e) {
                 e.preventDefault();
                 alert('Звоните: Олеся +380 99 445 72 87');
+                $(this).blur();
             })
         }
     };
